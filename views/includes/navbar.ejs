@@ -1,0 +1,76 @@
+<style>
+  .btn-search{
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-left: 1rem;
+  }
+  .btn-search:hover {
+   background-color: #fe424d;
+   color: #fff;
+  }  
+  .btn-search i {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+  .search-inp{
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+  .navbar-nav a:hover{
+     background-color: #f3f0f0ed;
+     border-radius: 0.8rem;
+  }
+  .search-inp:hover{
+    background-color: #f9f6f6ed;
+    cursor: pointer;
+  }
+@media (max-width: 770px) {
+   .navbar {
+     height: auto !important;
+   }
+  } 
+</style>
+ 
+<body>
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/listings"><i class="fa-solid fa-compass"></i> 
+     <b><span class="icon-name">Wanderlust</span></b> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-link" href="/listings">Explore</a>
+      </div>
+      <div class="navbar-nav ms-auto ">
+        <form class="d-flex needs-validation"  novalidate role="search" method="get" action="/destinations">
+          <input class="form-control mr-sm-2 search-inp" name="city"
+           type="search" placeholder="Search destinations" aria-label="Search" required />
+           <div class="invalid-feedback"> &nbsp;please enter destination</div>
+          <button class="btn btn-search" type="submit"><i class="fad fa-search"></i>Search</button>
+        </form>
+      </div>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="/listings/new">Airbnb your home</a>
+        <% if (!currUser) {%> 
+          <a class="nav-link " href="/signup"><b>Sign up</b> </a>
+          <a class="nav-link" href="/login"> <b>Log in</b> </a> 
+        <%}%>
+        <% if (currUser) {%>
+          <a class="nav-link" href="/logout"><b>Log out</b> </a>
+        <%}%> 
+      </div>
+    
+    </div>
+     
+  </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
