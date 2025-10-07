@@ -177,6 +177,9 @@ app.get("/listings", wrapAsync(async (req,res) => {
   res.render("listings/index.ejs", { allListings });
 }));
 
+app.get("/", (req, res) => {
+  res.redirect("/listings");  
+});
 
 // 404 Middleware for Page Not Found
 app.use((req, res, next) => {
