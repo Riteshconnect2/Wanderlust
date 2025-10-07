@@ -45,8 +45,17 @@
     margin-left: 2rem;
    }
    .indxcard{
-    width: 20rem;
+    width: 22rem;
    }
+}
+@media (min-width: 771px) and (max-width: 1000px){
+  .indxcd{
+  display:flex;
+  flex-direction: row;  
+  }
+  .indxcard{
+     padding-left:3rem;
+  }
 }
 
 </style> 
@@ -97,7 +106,7 @@
     </div>
   </div>
    
-  <div class="row row-cols-lg-3 row-cols-md-2 overflow mb-3">
+  <div class="row row-cols-lg-3 row-cols-md-2 overflow mb-3 indxcd">
     <% for(let listing of allListings) { %>
       <a href="/listings/<%= listing._id%>" class="listing-link">   
         <div class="card   row-cols-md-1 row-cols-lg-3 listing-card indxcard">
