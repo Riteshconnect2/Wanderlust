@@ -35,6 +35,9 @@
     display: flex;
     align-items: center;
   }
+  .indxcard{
+    width: 24rem;
+  }
 @media (max-width: 770px) {
    .tax-toggle{
     margin-top: 0.5rem;
@@ -92,10 +95,10 @@
     </div>
   </div>
    
-  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 overflow mb-3">
+  <div class="row row-cols-lg-3 row-cols-md-2 overflow mb-3">
     <% for(let listing of allListings) { %>
       <a href="/listings/<%= listing._id%>" class="listing-link">   
-        <div class="card row-cols-sm-1 col listing-card" style="width: 24rem;">
+        <div class="card   row-cols-md-1 row-cols-lg-3 listing-card indxcard">
           <img src="<%= listing.image.url %>" class="card-img-top" alt="listing_image">
           <div class="card-img-overlay"></div>
           <div class="card-body ">
