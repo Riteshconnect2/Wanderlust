@@ -15,6 +15,7 @@ Responsive design using Bootstrap
 Dynamic pages rendered with EJS templating engine
 
 Technologies Used
+
 Node.js
 
 Express.js
