@@ -28,17 +28,3 @@ Bootstrap
 JavaScript
 
 Leaflet
-
-controllers/    # Route control logic
-init/           # Initialization scripts
-models/         # Mongoose models
-public/         # Static files (CSS, JS, images)
-routes/         # Express route definitions
-uploads/        # Uploaded user files/images
-utils/          # Helper functions
-views/          # EJS templates
-app.js          # Main server file
-middleware.js   # Custom middleware
-cloudConfig.js  # Cloud storage configuration
-schema.js       # DB schematics
-package.json    # Project dependencies
