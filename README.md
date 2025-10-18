@@ -1,4 +1,4 @@
-# 📌 Project Link: 🔗 https://lnkd.in/dqUWhSZH 
+# 📌 Project Link: 🔗  https://wanderlust-project-umyx.onrender.com
  
 # ⭐ Project Overview:
  A feature-rich full-stack web app that allows users to explore, list and review stays complete with image uploads, interactive maps and secure user authentication.
