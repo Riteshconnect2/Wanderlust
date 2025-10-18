@@ -1,8 +1,10 @@
-# 📌 Project Link: 🔗  https://wanderlust-project-umyx.onrender.com
+# 📌 Project Link: 🔗 
+https://wanderlust-project-umyx.onrender.com
+----------------------------------------------------------------------------------------------------------------------------------------------
  
-# ⭐ Project Overview:
- A feature-rich full-stack web app that allows users to explore, list and review stays complete with image uploads, interactive maps and secure user authentication.
-
+# ⭐ Project Overview: A feature-rich full-stack web app that allows users to explore, list and review stays complete with image uploads, interactive maps and secure user authentication.
+---------------------------------------------------------------------------------------------------------------------------------------------
+ ****
 # ⚒️ Technologies Used:
  Frontend: EJS, HTML, CSS, JavaScript, Bootstrap
  Backend: Node.js, Express.js
