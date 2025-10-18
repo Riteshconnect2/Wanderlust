@@ -1,9 +1,7 @@
 # 📌 Project Link: 🔗 
 https://wanderlust-project-umyx.onrender.com
-----------------------------------------------------------------------------------------------------------------------------------------------
- 
-# ⭐ Project Overview: A feature-rich full-stack web app that allows users to explore, list and review stays complete with image uploads, interactive maps and secure user authentication.
----------------------------------------------------------------------------------------------------------------------------------------------
+  ****
+# ⭐ Project Overview: A feature-rich full-stack web app that allows users to explore, list and review stays complete with image uploads, interactive maps and secure user authentication. 
  ****
 # ⚒️ Technologies Used:
  Frontend: EJS, HTML, CSS, JavaScript, Bootstrap
@@ -13,7 +11,7 @@ https://wanderlust-project-umyx.onrender.com
  Authentication & Authorization: Passport.js, JWT
  Mapping Library: Leaflet
  Deployment: Render
-
+ ****
 # 📦 Packages Implemented:
  -Express.js: Simplifies routing and middleware handling.
  -Mongoose: ODM for MongoDB.
@@ -26,7 +24,7 @@ https://wanderlust-project-umyx.onrender.com
  -Express-Session: Handles user sessions smoothly.
  -Joi: Validates and ensures data integrity.
  -Nodemon: Restarts the server automatically during development.
-
+ ****
 # ⭐ Key Features:
  ✅ User Registration & Authentication
  ✅ Detailed Property Descriptions
